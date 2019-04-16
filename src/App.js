@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import ReactPlayer from 'react-player'
 import logo from './logo.svg';
 import './App.css';
 
@@ -19,6 +20,7 @@ class App extends Component {
           >
             Learn React
           </a>
+          <ReactPlayer url='https://www.youtube.com/watch?v=ysz5S6PUM-U' playing />
         </header>
       </div>
     );
