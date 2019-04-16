@@ -1,26 +1,23 @@
 import React, { Component } from 'react';
 import ReactPlayer from 'react-player'
-import logo from './logo.svg';
 import './App.css';
+
+// https://github.com/wenliangdai/react-audioplayer
+// https://github.com/xiaolin/react-image-gallery
+// https://github.com/leandrowd/react-responsive-carousel
+
+// https://scotch.io/tutorials/building-a-video-blog-with-gatsby-and-markdown-mdx
+
+
 
 class App extends Component {
   render() {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
+             
           <ReactPlayer url='https://www.youtube.com/watch?v=ysz5S6PUM-U' playing />
+          <ReactPlayer url='https://www.youtube.com/watch?v=q_7cWXw2h4c' playing />
         </header>
       </div>
     );
